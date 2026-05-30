@@ -7,8 +7,7 @@ import com.sathwika.WebProject.model.*;
 public class UserService {
 
     private List<User> allUsers;
-
-    public UserService() {
+     public UserService() {
 
         allUsers = new ArrayList<>();
 
@@ -70,5 +69,8 @@ public class UserService {
 
     public void deleteUser(int id) {
         allUsers.remove(id);
+    
+
+   
     }
 }
